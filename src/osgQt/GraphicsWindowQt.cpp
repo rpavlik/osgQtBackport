@@ -370,7 +370,7 @@ void GraphicsWindowQt::setCursor( MouseCursor cursor )
     case WaitCursor: _currentCursor = Qt::WaitCursor; break;
     case TextCursor: _currentCursor = Qt::IBeamCursor; break;
     case CrosshairCursor: _currentCursor = Qt::CrossCursor; break;
-    case HandCursor: _currentCursor = Qt::OpenHandCursor; break;
+    //case HandCursor: _currentCursor = Qt::OpenHandCursor; break;
     case UpDownCursor: _currentCursor = Qt::SizeVerCursor; break;
     case LeftRightCursor: _currentCursor = Qt::SizeHorCursor; break;
     case TopSideCursor: case BottomSideCursor: _currentCursor = Qt::UpArrowCursor; break;
